@@ -1,0 +1,8 @@
+# macOS Desktop Service Store
+.DS_Store
+
+# Xcode
+#
+## User settings
+xcuserdata
+*.xcuserstate
