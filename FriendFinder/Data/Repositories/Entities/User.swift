@@ -12,5 +12,5 @@ struct User: Identifiable {
     let id: Int
     let fullName: String
     let imageURL: URL
-    let location: CLLocation
+    let coordinate: CLLocationCoordinate2D
 }
