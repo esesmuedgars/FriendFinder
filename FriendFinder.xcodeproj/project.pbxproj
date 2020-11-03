@@ -3,18 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E51E86F12551515600032B96 /* TCPConnectionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51E86F02551515600032B96 /* TCPConnectionService.swift */; };
+		E51E86F52551516500032B96 /* UserMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51E86F42551516500032B96 /* UserMessage.swift */; };
+		E51E86F92551516A00032B96 /* UpdateMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51E86F82551516A00032B96 /* UpdateMessage.swift */; };
+		E51E86FD2551518200032B96 /* DataTransferService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51E86FC2551518200032B96 /* DataTransferService.swift */; };
+		E51E87172551597700032B96 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51E87162551597700032B96 /* Credentials.swift */; };
+		E51E874225515E0100032B96 /* TCPConnectionServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51E874125515E0100032B96 /* TCPConnectionServiceTests.swift */; platformFilter = ios; };
+		E53BE18C255168A8008D48DB /* TCPConnectionServiceTestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53BE18B255168A8008D48DB /* TCPConnectionServiceTestDelegate.swift */; };
+		E53BE19925516F46008D48DB /* FriendTrackerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53BE19825516F46008D48DB /* FriendTrackerRepository.swift */; };
+		E53BE1A025517972008D48DB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53BE19F25517972008D48DB /* User.swift */; };
+		E55106E125517C8700E3F0A3 /* LocationUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55106E025517C8700E3F0A3 /* LocationUpdate.swift */; };
+		E564875D25518A990028C18D /* FriendMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E564875C25518A990028C18D /* FriendMapViewController.swift */; };
+		E564876325518AE20028C18D /* FriendMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E564876225518AE20028C18D /* FriendMapViewModel.swift */; };
+		E564876A25518BA80028C18D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E564876925518BA80028C18D /* BaseViewController.swift */; };
+		E564877D25519CB20028C18D /* MKMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E564877C25519CB20028C18D /* MKMapView.swift */; };
+		E56487852551E0EB0028C18D /* UserAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56487842551E0EB0028C18D /* UserAnnotationView.swift */; };
+		E56487892551E1040028C18D /* UserAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56487882551E1040028C18D /* UserAnnotation.swift */; };
+		E564878D2551E50E0028C18D /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E564878C2551E50E0028C18D /* UIImage.swift */; };
 		E5A77C80254DAB0F00B6B25D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A77C7F254DAB0F00B6B25D /* AppDelegate.swift */; };
 		E5A77C82254DAB0F00B6B25D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A77C81254DAB0F00B6B25D /* SceneDelegate.swift */; };
 		E5A77C89254DAB1000B6B25D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5A77C88254DAB1000B6B25D /* Assets.xcassets */; };
 		E5A77C8C254DAB1000B6B25D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5A77C8A254DAB1000B6B25D /* LaunchScreen.storyboard */; };
-		E5A77C97254DAB1000B6B25D /* FriendFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A77C96254DAB1000B6B25D /* FriendFinderTests.swift */; };
 		E5A77CF3254DAFC800B6B25D /* AppFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A77CF2254DAFC800B6B25D /* AppFlowCoordinator.swift */; };
 		E5A77D01254DB1AF00B6B25D /* AppFlowFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A77D00254DB1AF00B6B25D /* AppFlowFactory.swift */; };
 		E5A77D0B254DB8E100B6B25D /* AppAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A77D0A254DB8E100B6B25D /* AppAppearance.swift */; };
+		E5FE429725520AA400DD6B34 /* CLLocationCoordinate2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FE429625520AA400DD6B34 /* CLLocationCoordinate2D.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +45,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E51E86F02551515600032B96 /* TCPConnectionService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPConnectionService.swift; sourceTree = "<group>"; };
+		E51E86F42551516500032B96 /* UserMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMessage.swift; sourceTree = "<group>"; };
+		E51E86F82551516A00032B96 /* UpdateMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateMessage.swift; sourceTree = "<group>"; };
+		E51E86FC2551518200032B96 /* DataTransferService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTransferService.swift; sourceTree = "<group>"; };
+		E51E87162551597700032B96 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		E51E874125515E0100032B96 /* TCPConnectionServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPConnectionServiceTests.swift; sourceTree = "<group>"; };
+		E53BE18B255168A8008D48DB /* TCPConnectionServiceTestDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPConnectionServiceTestDelegate.swift; sourceTree = "<group>"; };
+		E53BE19825516F46008D48DB /* FriendTrackerRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendTrackerRepository.swift; sourceTree = "<group>"; };
+		E53BE19F25517972008D48DB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E55106E025517C8700E3F0A3 /* LocationUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationUpdate.swift; sourceTree = "<group>"; };
+		E564875C25518A990028C18D /* FriendMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendMapViewController.swift; sourceTree = "<group>"; };
+		E564876225518AE20028C18D /* FriendMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendMapViewModel.swift; sourceTree = "<group>"; };
+		E564876925518BA80028C18D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		E564877C25519CB20028C18D /* MKMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKMapView.swift; sourceTree = "<group>"; };
+		E56487842551E0EB0028C18D /* UserAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAnnotationView.swift; sourceTree = "<group>"; };
+		E56487882551E1040028C18D /* UserAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAnnotation.swift; sourceTree = "<group>"; };
+		E564878C2551E50E0028C18D /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		E5A77C7C254DAB0F00B6B25D /* FriendFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A77C7F254DAB0F00B6B25D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5A77C81254DAB0F00B6B25D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,7 +69,6 @@
 		E5A77C8B254DAB1000B6B25D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5A77C8D254DAB1000B6B25D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5A77C92254DAB1000B6B25D /* FriendFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5A77C96254DAB1000B6B25D /* FriendFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendFinderTests.swift; sourceTree = "<group>"; };
 		E5A77C98254DAB1000B6B25D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5A77CD7254DAE1C00B6B25D /* IDETemplateMacros.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = IDETemplateMacros.plist; path = FriendFinder.xcodeproj/xcshareddata/IDETemplateMacros.plist; sourceTree = SOURCE_ROOT; };
 		E5A77CDB254DAE2500B6B25D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
@@ -44,6 +77,7 @@
 		E5A77D00254DB1AF00B6B25D /* AppFlowFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlowFactory.swift; sourceTree = "<group>"; };
 		E5A77D0A254DB8E100B6B25D /* AppAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppAppearance.swift; sourceTree = "<group>"; };
 		E5A77D0E254DB92C00B6B25D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
+		E5FE429625520AA400DD6B34 /* CLLocationCoordinate2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLocationCoordinate2D.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +98,131 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E51E870C2551584D00032B96 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E53BE19C25516F48008D48DB /* Repositories */,
+				E51E87142551593900032B96 /* Network */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E51E87142551593900032B96 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E51E86FC2551518200032B96 /* DataTransferService.swift */,
+				E51E86F02551515600032B96 /* TCPConnectionService.swift */,
+				E51E87152551595900032B96 /* Models */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E51E87152551595900032B96 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E51E87162551597700032B96 /* Credentials.swift */,
+				E51E86F42551516500032B96 /* UserMessage.swift */,
+				E51E86F82551516A00032B96 /* UpdateMessage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E51E874F25515E1D00032B96 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E51E874125515E0100032B96 /* TCPConnectionServiceTests.swift */,
+				E53BE18F255168CE008D48DB /* Helpers */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E53BE18F255168CE008D48DB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E53BE18B255168A8008D48DB /* TCPConnectionServiceTestDelegate.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E53BE19C25516F48008D48DB /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				E53BE19825516F46008D48DB /* FriendTrackerRepository.swift */,
+				E55106E525517E9100E3F0A3 /* Entities */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		E55106E525517E9100E3F0A3 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				E53BE19F25517972008D48DB /* User.swift */,
+				E55106E025517C8700E3F0A3 /* LocationUpdate.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		E5648758255189560028C18D /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				E564875B2551896F0028C18D /* ViewControllers */,
+				E56487592551895E0028C18D /* ViewModels */,
+				E564875A255189670028C18D /* Views */,
+				E564876625518B8A0028C18D /* Common */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		E56487592551895E0028C18D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E564876225518AE20028C18D /* FriendMapViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E564875A255189670028C18D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E56487842551E0EB0028C18D /* UserAnnotationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E564875B2551896F0028C18D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E564875C25518A990028C18D /* FriendMapViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E564876625518B8A0028C18D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E564876725518B900028C18D /* ViewControllers */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E564876725518B900028C18D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E564876925518BA80028C18D /* BaseViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E564877B25519CA30028C18D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E564878C2551E50E0028C18D /* UIImage.swift */,
+				E564877C25519CB20028C18D /* MKMapView.swift */,
+				E5FE429625520AA400DD6B34 /* CLLocationCoordinate2D.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		E5A77C73254DAB0F00B6B25D = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +249,9 @@
 				E5A77D0A254DB8E100B6B25D /* AppAppearance.swift */,
 				E5A77CF2254DAFC800B6B25D /* AppFlowCoordinator.swift */,
 				E5A77D00254DB1AF00B6B25D /* AppFlowFactory.swift */,
+				E5648758255189560028C18D /* Presentation */,
+				E51E870C2551584D00032B96 /* Data */,
+				E5FE429F2552165A00DD6B34 /* Utilities */,
 				E5A77CD2254DAD9400B6B25D /* Resources */,
 			);
 			path = FriendFinder;
@@ -98,7 +260,7 @@
 		E5A77C95254DAB1000B6B25D /* FriendFinderTests */ = {
 			isa = PBXGroup;
 			children = (
-				E5A77C96254DAB1000B6B25D /* FriendFinderTests.swift */,
+				E51E874F25515E1D00032B96 /* Data */,
 				E5A77C98254DAB1000B6B25D /* Info.plist */,
 			);
 			path = FriendFinderTests;
@@ -116,6 +278,15 @@
 				E5A77C88254DAB1000B6B25D /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		E5FE429F2552165A00DD6B34 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E56487882551E1040028C18D /* UserAnnotation.swift */,
+				E564877B25519CA30028C18D /* Extensions */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +341,7 @@
 					};
 					E5A77C91254DAB1000B6B25D = {
 						CreatedOnToolsVersion = 12.1;
+						TestTargetID = E5A77C7B254DAB0F00B6B25D;
 					};
 				};
 			};
@@ -216,11 +388,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E564876325518AE20028C18D /* FriendMapViewModel.swift in Sources */,
+				E51E86FD2551518200032B96 /* DataTransferService.swift in Sources */,
+				E53BE1A025517972008D48DB /* User.swift in Sources */,
+				E55106E125517C8700E3F0A3 /* LocationUpdate.swift in Sources */,
+				E564875D25518A990028C18D /* FriendMapViewController.swift in Sources */,
 				E5A77CF3254DAFC800B6B25D /* AppFlowCoordinator.swift in Sources */,
+				E51E87172551597700032B96 /* Credentials.swift in Sources */,
+				E51E86F12551515600032B96 /* TCPConnectionService.swift in Sources */,
+				E53BE19925516F46008D48DB /* FriendTrackerRepository.swift in Sources */,
 				E5A77C80254DAB0F00B6B25D /* AppDelegate.swift in Sources */,
 				E5A77D01254DB1AF00B6B25D /* AppFlowFactory.swift in Sources */,
+				E564877D25519CB20028C18D /* MKMapView.swift in Sources */,
+				E56487852551E0EB0028C18D /* UserAnnotationView.swift in Sources */,
 				E5A77C82254DAB0F00B6B25D /* SceneDelegate.swift in Sources */,
+				E51E86F52551516500032B96 /* UserMessage.swift in Sources */,
+				E564876A25518BA80028C18D /* BaseViewController.swift in Sources */,
+				E564878D2551E50E0028C18D /* UIImage.swift in Sources */,
+				E56487892551E1040028C18D /* UserAnnotation.swift in Sources */,
+				E51E86F92551516A00032B96 /* UpdateMessage.swift in Sources */,
 				E5A77D0B254DB8E100B6B25D /* AppAppearance.swift in Sources */,
+				E5FE429725520AA400DD6B34 /* CLLocationCoordinate2D.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,7 +416,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5A77C97254DAB1000B6B25D /* FriendFinderTests.swift in Sources */,
+				E51E874225515E0100032B96 /* TCPConnectionServiceTests.swift in Sources */,
+				E53BE18C255168A8008D48DB /* TCPConnectionServiceTestDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +426,7 @@
 /* Begin PBXTargetDependency section */
 		E5A77C94254DAB1000B6B25D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilter = ios;
 			target = E5A77C7B254DAB0F00B6B25D /* FriendFinder */;
 			targetProxy = E5A77C93254DAB1000B6B25D /* PBXContainerItemProxy */;
 		};
@@ -412,6 +602,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RB8S8SFW6F;
 				INFOPLIST_FILE = FriendFinderTests/Info.plist;
@@ -425,6 +616,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FriendFinder.app/FriendFinder";
 			};
 			name = Debug;
 		};
@@ -432,6 +624,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RB8S8SFW6F;
 				INFOPLIST_FILE = FriendFinderTests/Info.plist;
@@ -445,6 +638,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FriendFinder.app/FriendFinder";
 			};
 			name = Release;
 		};
