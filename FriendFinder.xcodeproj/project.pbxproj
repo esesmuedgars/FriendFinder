@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,11 +12,12 @@
 		E51E86F92551516A00032B96 /* UpdateMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51E86F82551516A00032B96 /* UpdateMessage.swift */; };
 		E51E86FD2551518200032B96 /* DataTransferService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51E86FC2551518200032B96 /* DataTransferService.swift */; };
 		E51E87172551597700032B96 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51E87162551597700032B96 /* Credentials.swift */; };
+		E51E874225515E0100032B96 /* TCPConnectionServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51E874125515E0100032B96 /* TCPConnectionServiceTests.swift */; platformFilter = ios; };
+		E53BE18C255168A8008D48DB /* TCPConnectionServiceTestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53BE18B255168A8008D48DB /* TCPConnectionServiceTestDelegate.swift */; };
 		E5A77C80254DAB0F00B6B25D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A77C7F254DAB0F00B6B25D /* AppDelegate.swift */; };
 		E5A77C82254DAB0F00B6B25D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A77C81254DAB0F00B6B25D /* SceneDelegate.swift */; };
 		E5A77C89254DAB1000B6B25D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5A77C88254DAB1000B6B25D /* Assets.xcassets */; };
 		E5A77C8C254DAB1000B6B25D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5A77C8A254DAB1000B6B25D /* LaunchScreen.storyboard */; };
-		E5A77C97254DAB1000B6B25D /* FriendFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A77C96254DAB1000B6B25D /* FriendFinderTests.swift */; };
 		E5A77CF3254DAFC800B6B25D /* AppFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A77CF2254DAFC800B6B25D /* AppFlowCoordinator.swift */; };
 		E5A77D01254DB1AF00B6B25D /* AppFlowFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A77D00254DB1AF00B6B25D /* AppFlowFactory.swift */; };
 		E5A77D0B254DB8E100B6B25D /* AppAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A77D0A254DB8E100B6B25D /* AppAppearance.swift */; };
@@ -38,6 +39,8 @@
 		E51E86F82551516A00032B96 /* UpdateMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateMessage.swift; sourceTree = "<group>"; };
 		E51E86FC2551518200032B96 /* DataTransferService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTransferService.swift; sourceTree = "<group>"; };
 		E51E87162551597700032B96 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		E51E874125515E0100032B96 /* TCPConnectionServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPConnectionServiceTests.swift; sourceTree = "<group>"; };
+		E53BE18B255168A8008D48DB /* TCPConnectionServiceTestDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPConnectionServiceTestDelegate.swift; sourceTree = "<group>"; };
 		E5A77C7C254DAB0F00B6B25D /* FriendFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A77C7F254DAB0F00B6B25D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5A77C81254DAB0F00B6B25D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +48,6 @@
 		E5A77C8B254DAB1000B6B25D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5A77C8D254DAB1000B6B25D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5A77C92254DAB1000B6B25D /* FriendFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5A77C96254DAB1000B6B25D /* FriendFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendFinderTests.swift; sourceTree = "<group>"; };
 		E5A77C98254DAB1000B6B25D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5A77CD7254DAE1C00B6B25D /* IDETemplateMacros.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = IDETemplateMacros.plist; path = FriendFinder.xcodeproj/xcshareddata/IDETemplateMacros.plist; sourceTree = SOURCE_ROOT; };
 		E5A77CDB254DAE2500B6B25D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
@@ -102,6 +104,23 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		E51E874F25515E1D00032B96 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E51E874125515E0100032B96 /* TCPConnectionServiceTests.swift */,
+				E53BE18F255168CE008D48DB /* Helpers */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E53BE18F255168CE008D48DB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E53BE18B255168A8008D48DB /* TCPConnectionServiceTestDelegate.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		E5A77C73254DAB0F00B6B25D = {
 			isa = PBXGroup;
 			children = (
@@ -137,7 +156,7 @@
 		E5A77C95254DAB1000B6B25D /* FriendFinderTests */ = {
 			isa = PBXGroup;
 			children = (
-				E5A77C96254DAB1000B6B25D /* FriendFinderTests.swift */,
+				E51E874F25515E1D00032B96 /* Data */,
 				E5A77C98254DAB1000B6B25D /* Info.plist */,
 			);
 			path = FriendFinderTests;
@@ -209,6 +228,7 @@
 					};
 					E5A77C91254DAB1000B6B25D = {
 						CreatedOnToolsVersion = 12.1;
+						TestTargetID = E5A77C7B254DAB0F00B6B25D;
 					};
 				};
 			};
@@ -272,7 +292,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5A77C97254DAB1000B6B25D /* FriendFinderTests.swift in Sources */,
+				E51E874225515E0100032B96 /* TCPConnectionServiceTests.swift in Sources */,
+				E53BE18C255168A8008D48DB /* TCPConnectionServiceTestDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +302,7 @@
 /* Begin PBXTargetDependency section */
 		E5A77C94254DAB1000B6B25D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilter = ios;
 			target = E5A77C7B254DAB0F00B6B25D /* FriendFinder */;
 			targetProxy = E5A77C93254DAB1000B6B25D /* PBXContainerItemProxy */;
 		};
@@ -456,6 +478,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RB8S8SFW6F;
 				INFOPLIST_FILE = FriendFinderTests/Info.plist;
@@ -469,6 +492,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FriendFinder.app/FriendFinder";
 			};
 			name = Debug;
 		};
@@ -476,6 +500,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RB8S8SFW6F;
 				INFOPLIST_FILE = FriendFinderTests/Info.plist;
@@ -489,6 +514,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FriendFinder.app/FriendFinder";
 			};
 			name = Release;
 		};

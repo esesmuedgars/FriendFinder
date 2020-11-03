@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct UpdateMessage: Identifiable {
+struct UpdateMessage: Identifiable, Equatable {
     let id: Int
     let latitude: Double
     let longitude: Double

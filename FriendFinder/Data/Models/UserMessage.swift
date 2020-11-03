@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct UserMessage: Identifiable {
+struct UserMessage: Identifiable, Equatable {
     let id: Int
     let fullName: String
     let imageURL: URL
