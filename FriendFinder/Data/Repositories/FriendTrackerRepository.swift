@@ -42,7 +42,7 @@ extension FriendTrackerRepositoryImpl: FriendTrackerRepository {
                         id: message.id,
                         fullName: message.fullName,
                         imageURL: message.imageURL,
-                        location: CLLocation(
+                        coordinate: CLLocationCoordinate2D(
                             latitude: message.latitude,
                             longitude: message.longitude
                         )
@@ -53,7 +53,7 @@ extension FriendTrackerRepositoryImpl: FriendTrackerRepository {
                 onLocationUpdate(
                     LocationUpdate(
                         id: message.id,
-                        location: CLLocation(
+                        coordinate: CLLocationCoordinate2D(
                             latitude: message.latitude,
                             longitude: message.longitude
                         )

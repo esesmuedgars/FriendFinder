@@ -10,5 +10,5 @@ import CoreLocation
 
 struct LocationUpdate: Identifiable {
     let id: Int
-    let location: CLLocation
+    let coordinate: CLLocationCoordinate2D
 }

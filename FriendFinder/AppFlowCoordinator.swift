@@ -7,9 +7,13 @@
 
 import UIKit
 
+// MARK: Coordinator
+
 protocol Coordinator: AnyObject {
     func start()
 }
+
+// MARK: AppFlowCoordinator
 
 final class AppFlowCoordinator: Coordinator {
 
@@ -25,9 +29,7 @@ final class AppFlowCoordinator: Coordinator {
     }
 
     func start() {
-        // FIXME: Replace with `factory` initialization call
-        let viewController = UIViewController()
-        viewController.view.backgroundColor = .systemBlue
+        let viewController = factory.makeFriendMapViewController()
 
         presenter.setViewControllers(
             [viewController],
