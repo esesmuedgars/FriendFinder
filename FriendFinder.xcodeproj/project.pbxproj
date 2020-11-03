@@ -14,6 +14,9 @@
 		E51E87172551597700032B96 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51E87162551597700032B96 /* Credentials.swift */; };
 		E51E874225515E0100032B96 /* TCPConnectionServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51E874125515E0100032B96 /* TCPConnectionServiceTests.swift */; platformFilter = ios; };
 		E53BE18C255168A8008D48DB /* TCPConnectionServiceTestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53BE18B255168A8008D48DB /* TCPConnectionServiceTestDelegate.swift */; };
+		E53BE19925516F46008D48DB /* FriendTrackerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53BE19825516F46008D48DB /* FriendTrackerRepository.swift */; };
+		E53BE1A025517972008D48DB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53BE19F25517972008D48DB /* User.swift */; };
+		E55106E125517C8700E3F0A3 /* LocationUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55106E025517C8700E3F0A3 /* LocationUpdate.swift */; };
 		E5A77C80254DAB0F00B6B25D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A77C7F254DAB0F00B6B25D /* AppDelegate.swift */; };
 		E5A77C82254DAB0F00B6B25D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A77C81254DAB0F00B6B25D /* SceneDelegate.swift */; };
 		E5A77C89254DAB1000B6B25D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5A77C88254DAB1000B6B25D /* Assets.xcassets */; };
@@ -41,6 +44,9 @@
 		E51E87162551597700032B96 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
 		E51E874125515E0100032B96 /* TCPConnectionServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPConnectionServiceTests.swift; sourceTree = "<group>"; };
 		E53BE18B255168A8008D48DB /* TCPConnectionServiceTestDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPConnectionServiceTestDelegate.swift; sourceTree = "<group>"; };
+		E53BE19825516F46008D48DB /* FriendTrackerRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendTrackerRepository.swift; sourceTree = "<group>"; };
+		E53BE19F25517972008D48DB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E55106E025517C8700E3F0A3 /* LocationUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationUpdate.swift; sourceTree = "<group>"; };
 		E5A77C7C254DAB0F00B6B25D /* FriendFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A77C7F254DAB0F00B6B25D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5A77C81254DAB0F00B6B25D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,8 +85,8 @@
 		E51E870C2551584D00032B96 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				E53BE19C25516F48008D48DB /* Repositories */,
 				E51E87142551593900032B96 /* Network */,
-				E51E87152551595900032B96 /* Models */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -90,6 +96,7 @@
 			children = (
 				E51E86FC2551518200032B96 /* DataTransferService.swift */,
 				E51E86F02551515600032B96 /* TCPConnectionService.swift */,
+				E51E87152551595900032B96 /* Models */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -119,6 +126,24 @@
 				E53BE18B255168A8008D48DB /* TCPConnectionServiceTestDelegate.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E53BE19C25516F48008D48DB /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				E53BE19825516F46008D48DB /* FriendTrackerRepository.swift */,
+				E55106E525517E9100E3F0A3 /* Entities */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		E55106E525517E9100E3F0A3 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				E53BE19F25517972008D48DB /* User.swift */,
+				E55106E025517C8700E3F0A3 /* LocationUpdate.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 		E5A77C73254DAB0F00B6B25D = {
@@ -276,9 +301,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E51E86FD2551518200032B96 /* DataTransferService.swift in Sources */,
+				E53BE1A025517972008D48DB /* User.swift in Sources */,
+				E55106E125517C8700E3F0A3 /* LocationUpdate.swift in Sources */,
 				E5A77CF3254DAFC800B6B25D /* AppFlowCoordinator.swift in Sources */,
 				E51E87172551597700032B96 /* Credentials.swift in Sources */,
 				E51E86F12551515600032B96 /* TCPConnectionService.swift in Sources */,
+				E53BE19925516F46008D48DB /* FriendTrackerRepository.swift in Sources */,
 				E5A77C80254DAB0F00B6B25D /* AppDelegate.swift in Sources */,
 				E5A77D01254DB1AF00B6B25D /* AppFlowFactory.swift in Sources */,
 				E5A77C82254DAB0F00B6B25D /* SceneDelegate.swift in Sources */,
